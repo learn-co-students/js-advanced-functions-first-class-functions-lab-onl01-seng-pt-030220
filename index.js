@@ -1,19 +1,13 @@
 // Code your solution in this file!
 
 function returnFirstTwoDrivers(array){
-  const newArr=[]
-    newArr.push(array[0]);
-    newArr.push(array[1]);
-    return newArr
 
+  return array.slice(0, 2);
 }
 
-function returnLastTwoDrivers(array){
-  const newArr=[]
-    newArr.push(array[array.length-2]);
-    newArr.push(array[array.length-1]);
-    return newArr
 
+function returnLastTwoDrivers(array){
+  return array.slice(-2)
 }
 
 
