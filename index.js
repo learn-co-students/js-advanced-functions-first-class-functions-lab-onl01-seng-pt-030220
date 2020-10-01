@@ -24,13 +24,12 @@ function createFareMultiplier(number){
 };
 
 
-const fareDoubler = fare => createFareMultiplier(1)(fare) * 2
+const fareDoubler = fare => createFareMultiplier(1)(fare) * 2;
 
-const fareTripler = fare => createFareMultiplier(1)(fare) * 3
+const fareTripler = fare => createFareMultiplier(1)(fare) * 3;
 
 
 
 function selectDifferentDrivers(arraysOfDrivers, driversFunction){
   return driversFunction(arraysOfDrivers)
-}
-
+};
